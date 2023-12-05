@@ -1,20 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GridSpace : MonoBehaviour
 {
     public int x_cord;
     public int y_cord;
-    public GameObject indicator;
+    public GameObject Indicator;
+    public Camera Cam;
+    public GameObject player;
+    public GameObject spawnPoint;
 
-    // Make private eventually
     private bool active = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        indicator.SetActive(false);
+        Indicator.SetActive(false);
         InvokeRepeating("FlashIndicator", 0, 0.7f);
     }
 
@@ -22,22 +25,32 @@ public class GridSpace : MonoBehaviour
     {
         if (active)
         {
-            if (indicator.activeSelf)
+            if (Indicator.activeSelf)
             {
-                indicator.SetActive(false);
+                Indicator.SetActive(false);
             }
             else
             {
-                indicator.SetActive(true);
+                Indicator.SetActive(true);
             }
         } else
         {
-            indicator.SetActive(false);
+            Indicator.SetActive(false);
         }
     }
 
     public void setIndicator(bool indicator)
     {
         active = indicator;
+    }
+
+    public void setCamera(bool cameraStatus)
+    {
+        Cam.enabled = cameraStatus;
+    }
+
+    public void spawnPlayer()
+    {
+        Instantiate(player, spawnPoint.transform.position, Quaternion.identity);
     }
 }
