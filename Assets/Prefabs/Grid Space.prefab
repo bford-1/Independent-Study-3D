@@ -61,7 +61,7 @@ MonoBehaviour:
   x_cord: 0
   y_cord: 0
   Indicator: {fileID: 8312123987928715411}
-  Cam: {fileID: 6237844990533117336}
+  Cam: {fileID: 6466939224717980425}
   player: {fileID: 1250242103920831403, guid: e30e54172235b974f8b139aa4b14e3e7, type: 3}
   spawnPoint: {fileID: 7302961912481792663}
 --- !u!1 &1167773607103468621

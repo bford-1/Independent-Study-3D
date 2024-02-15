@@ -8,7 +8,7 @@ public class GridSpace : MonoBehaviour
     public int x_cord;
     public int y_cord;
     public GameObject Indicator;
-    public Camera Cam;
+    public GameObject Cam;
     public GameObject player;
     public GameObject spawnPoint;
 
@@ -46,7 +46,7 @@ public class GridSpace : MonoBehaviour
 
     public void setCamera(bool cameraStatus)
     {
-        Cam.enabled = cameraStatus;
+        Cam.SetActive(cameraStatus);
     }
 
     public void spawnPlayer()

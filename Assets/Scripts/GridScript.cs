@@ -17,7 +17,9 @@ public class GridScript : MonoBehaviour
         foreach (GameObject v in grid)
         {
             dictionary[v.name] = v;
+            v.GetComponent<GridSpace>().setCamera(false);
         }
+        grid[0].GetComponent<GridSpace>().setCamera(true);
     }
 
     public void ClearIndicators()
