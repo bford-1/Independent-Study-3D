@@ -1,0 +1,43 @@
+\{text "Group"}Producer
+\{text "Name"}George Joseph
+
+
+\{text "Group"}Director
+\{text "Name"}Andre O. Davidson
+
+
+\{text "Group"}Programmers
+\{text "Name"}Felix Cardinal|Tomy L. Parenteau
+Scott S. Bossé|Le Sami
+
+
+\{text "Group"}Game Designers
+\{text "Name"}Lucile Nicolas|Brian S. Gupta
+Zafar Z. Coombes|Stephane C. Mejri
+Narcisse F. Gross|Yukiko Gima
+
+
+\{text "Group"}Graphic Artists
+\{text "Name"}Josée Landry|Meri Chan
+Marika R. Drolet|Flora K. Diallo
+
+
+\{text "Group"}Voice Actors
+\{text "ActorRole"}Jabberwock|\{text "ActorName"}Moritz J. Schmidt
+\{text "ActorRole"}Hellhound|\{text "ActorName"}Sa O. Brückner
+\{text "ActorRole"}Undine|\{text "ActorName"}Clara E. Yilmaz
+\{text "ActorRole"}Carbuncle|\{text "ActorName"}Ida V. Steinbach
+\{text "ActorRole"}Sleipnir|\{text "ActorName"}Jan Net
+
+
+\{text "Group"}Special Thanks
+\{text "Name"}Leonard Y. Terry|Delbert Villamor
+Xiao Bateman|Chloé J. Veilleux
+Mimi M. Dupont|Rachelle D. Deschamps
+
+
+
+
+\{text "Group"}Developed by
+\{img "Logo"}
+
